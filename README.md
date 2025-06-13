@@ -248,3 +248,7 @@ o	Model Mahasiswa:
 o	Model Matakuliah: 
 
  - Juga memiliki relasi belongsToMany(Mahasiswa::class).
+
+
+### LINK VIDEO
+https://drive.google.com/file/d/1N9WU1zB9joSvLgRqwTSVzUsfafQQ82cI/view?usp=sharing

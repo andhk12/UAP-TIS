@@ -1,10 +1,11 @@
 # UAP TIS TI-D
 dikerjakan oleh:
-235150707111046 - Andhika Pratama Putra
 
-235150707111057 - Bagus Setiawan 
+1. 235150707111046 - Andhika Pratama Putra
 
-225150707111070 - Davy Julian Ibrahim 
+2. 235150707111057 - Bagus Setiawan 
+
+3. 225150707111070 - Davy Julian Ibrahim 
 
 # Laravel Lumen Application
 

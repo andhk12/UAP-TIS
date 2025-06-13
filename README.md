@@ -1,4 +1,4 @@
-![Screenshot 2025-06-12 204915](https://github.com/user-attachments/assets/e0d09e92-f253-414c-80a8-8e6941f958cb)# UAP TIS TI-D
+# UAP TIS TI-D
 dikerjakan oleh:
 
 1. 235150707111046 - Andhika Pratama Putra

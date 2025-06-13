@@ -228,14 +228,23 @@ GET /uap/matkul/saya
 
 ## ERD
 ![ERD](https://github.com/user-attachments/assets/baa5d86c-06b5-4880-9fb7-ccdaa238f839)
+
 Tabel:
+
 o	mahasiswas: Menyimpan data mahasiswa dengan nim sebagai primary key dan prodi_id sebagai foreign key.
+
 o	prodis: Tabel master untuk program studi.
+
 o	matakuliahs: Tabel master untuk mata kuliah.
+
 o	mahasiswa_matakuliah: Tabel pivot yang menghubungkan mahasiswa_nim.
 
+
 o	Model Mahasiswa: 
-	Memiliki relasi belongsTo(Prodi::class) (satu mahasiswa punya satu prodi).
-	Memiliki relasi belongsToMany(Matakuliah::class) (satu mahasiswa bisa mengambil banyak matkul).
+
+ - Memiliki relasi belongsTo(Prodi::class) (satu mahasiswa punya satu prodi).
+ - Memiliki relasi belongsToMany(Matakuliah::class) (satu mahasiswa bisa mengambil banyak matkul).
+   
 o	Model Matakuliah: 
-	Juga memiliki relasi belongsToMany(Mahasiswa::class).
+
+ - Juga memiliki relasi belongsToMany(Mahasiswa::class).

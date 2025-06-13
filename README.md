@@ -1,4 +1,4 @@
-# UAP TIS TI-D
+![Screenshot 2025-06-12 204915](https://github.com/user-attachments/assets/e0d09e92-f253-414c-80a8-8e6941f958cb)# UAP TIS TI-D
 dikerjakan oleh:
 
 1. 235150707111046 - Andhika Pratama Putra
@@ -52,6 +52,7 @@ This is a Laravel Lumen-based application that requires several prerequisites an
    - Run database migrations:
    ```bash
    php artisan migrate
+   php artisan db:seed
    ```
 
 5. **Storage Permissions**
@@ -78,6 +79,7 @@ This is a Laravel Lumen-based application that requires several prerequisites an
     "prodi_id": 1
   }
   ```
+![Screenshot 2025-06-12 204136](https://github.com/user-attachments/assets/de553b94-2a66-4088-ab9a-2cb3665802c5)
 
 #### 2. Login
 - **URL**: `/uap/login`
@@ -90,6 +92,8 @@ This is a Laravel Lumen-based application that requires several prerequisites an
     "password": "password123"
   }
   ```
+![Screenshot 2025-06-12 204915](https://github.com/user-attachments/assets/58575062-5fb6-45af-bca2-91cc3cf0c226)
+
 - **Response**: Returns JWT token for authenticated requests
 
 ### Protected Endpoints (Require JWT Token)
@@ -102,6 +106,7 @@ This is a Laravel Lumen-based application that requires several prerequisites an
   ```
   Authorization: Bearer <your_jwt_token>
   ```
+![Screenshot 2025-06-12 204939](https://github.com/user-attachments/assets/78f9e286-5f6d-4e86-a3ba-5f2a79237488)
 
 #### 2. Filter Students by Program
 - **URL**: `/uap/mahasiswa/prodi/{id}`
@@ -111,6 +116,7 @@ This is a Laravel Lumen-based application that requires several prerequisites an
   ```
   Authorization: Bearer <your_jwt_token>
   ```
+![Screenshot 2025-06-12 205029](https://github.com/user-attachments/assets/479d28ce-8c79-498f-acd0-82faadc20790)
 
 #### 3. Get All Programs
 - **URL**: `/uap/prodi`
@@ -120,6 +126,7 @@ This is a Laravel Lumen-based application that requires several prerequisites an
   ```
   Authorization: Bearer <your_jwt_token>
   ```
+![Screenshot 2025-06-12 205112](https://github.com/user-attachments/assets/a693017e-9a5b-4e16-91d1-5d89c49fdba4)
 
 #### 4. Get All Courses
 - **URL**: `/uap/matkul`
@@ -129,6 +136,7 @@ This is a Laravel Lumen-based application that requires several prerequisites an
   ```
   Authorization: Bearer <your_jwt_token>
   ```
+![Screenshot 2025-06-12 205139](https://github.com/user-attachments/assets/5c991c05-670e-4762-91f4-34017dc4b85f)
 
 #### 5. Add Course
 - **URL**: `/uap/matkul/tambah`
@@ -144,6 +152,7 @@ This is a Laravel Lumen-based application that requires several prerequisites an
     "matakuliah_id": 1
   }
   ```
+![Screenshot 2025-06-12 205343](https://github.com/user-attachments/assets/2ba259ef-b22c-4a84-9036-241b2d9004cb)
 
 #### 6. View My Courses
 - **URL**: `/uap/matkul/saya`
@@ -153,6 +162,7 @@ This is a Laravel Lumen-based application that requires several prerequisites an
   ```
   Authorization: Bearer <your_jwt_token>
   ```
+![Screenshot 2025-06-12 205409](https://github.com/user-attachments/assets/cc59bc88-906c-42ad-86ed-49151a939e00)
 
 ## Running the Application
 
